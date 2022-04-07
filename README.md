@@ -1,6 +1,6 @@
 ## JeuStan 
 Choisi le bon pays situé sur le map 
-[lien du site ](https://lmlouis.github.io/JeuxStanHTML/) 
+clickez ici -> [lien du site ](https://lmlouis.github.io/JeuxStanHTML/)  pour aller sur le site.
 
 
 ### Site Web Front END
