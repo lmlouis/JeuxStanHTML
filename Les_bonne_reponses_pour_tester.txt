@@ -1,0 +1,7 @@
+1 - Azerbaïdjan
+2 - Turkménistan
+3 - Ousbékistan
+4 - Afghanistan
+5 - Pakistan
+6 - Tadjikistan
+7 - Kirghizistan

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini projet</title>
+    <link rel="stylesheet" href="jeux.css">
+</head>
+<body>
+    <header class="title">
+        <h1>Jeu des pays en "stan"</h1>
+    
+    </header>
+    <section>
+        <div class="cadrer">
+        <p class="cadrer"onmouseover="Notice()"><img src="quizz.png" width="200" height="auto"></p> 
+        <form name="qcm" method="get">
+        
+            <p><label for="choix"> 1 - </label>  
+            <select name="repun" id="choix">
+                <option name="1" value="2"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                 
+            </select></p> 
+        
+            <p><label for="choix"> 2 -</label>
+            <select name="repdeux" id="choix">
+                <option value="2"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                  
+            </select></p>
+
+            <p><label for="choix"> 3 -</label>
+            <select name="reptrois" id="choix">
+                <option value="3"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                  
+            </select></p>
+
+            <p><label for="choix"> 4 -</label>
+            <select name="repquatre" id="choix">
+                <option value="4"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                  
+            </select></p>
+
+            <p><label for="choix"> 5 -</label>
+            <select name="repcinq" id="choix">
+                <option value="5"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                 
+            </select></p>
+
+
+            <p><label for="choix"> 6 -</label>
+                <select name="repsix" id="choix">
+                <option value="6"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>                  
+            </select></p>
+                        
+            <p><label for="choix"> 7 -</label>
+            <select name="repsept" id="choix">
+                <option value="7"></option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Azerbaidjan">Azerbaidjan</option>
+                <option value="Kirghizistan">Kirghizistan</option>
+                <option value="Pakistan">Pakistan</option> 
+                <option value="Tadjikistan">Tadjikistan</option> 
+                <option value="Turkménistan">Turkménistan</option>
+                <option value="Ousbékistan">Ousbékistan</option>  
+            </select></p>
+        </div>  
+        <div class="cadrer"><img src="carte.png" id="image" alt="carte des pays" width="700" height="auto"> 
+        </div>           
+        <div>
+        <p class="cadrer "><span ><input class="button" type="reset"  name="media" value="Init" onclick=annuler(document.qcm)></span></p>
+        <p class="cadrer"><span><input class="button" type="button" name="media" value="Valider" onclick="reponses(document.qcm)"></span></p>
+        </div>      
+        </form>
+    </section>
+
+    <footer>
+        <p class="cadrer">&copy; 2021 - Jeux des pays en "stan"</p>
+    </footer>
+
+    
+    <script src="jeux.js"></script>
+</body>
+</html>
