@@ -3,3 +3,6 @@ plugins:
 - jekyll-remote-theme
 title: JeuStan
 description: Choisi le bon pays
+github:
+  zip_url: https://github.com/lmlouis/JeuxStanHTML.git/download.zip
+  another_url: https://github.com/lmlouis/JeuxStanHTML.git
